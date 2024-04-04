@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Search</title>
+        <script defer src="./js/script.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" type="text/css">
+    </head>
+    <body>
+        <header style="display: flex; justify-content: space-between;">
+            <span>
+                <a href="./index.html">Home</a>
+                <a href="./index.html#">Scan</a>
+                <a href="./saved.html">Saved</a>
+                <a href="./log_in.html">Account</a>
+                <strong><a href="./search.html">Search</a></strong>
+            </span>
+            <a id="a_handle" href="./log_in.html">
+                <span id="handle">
+                    Guest#001
+                </span>
+            </a>
+        </header>
+        <input id="loc_in" type="text" name="loc" placeholder="Search By Location"/>
+        <input id="code_in" type="text" name="code" pattern="[a-zA-Z]{4}" placeholder="Search By Code"/>
+        <h3 id="num" style="color: red;">No Input</h3>
+        <table id="t">
+            <thead>
+                <th scope="col">Code</th>
+                <th scope="col">Origin</th>
+                <th scope="col">Destination</th>
+                <th scope="col">Map</th>
+            </thead>
+            <tbody id="t_body">
+                <td scope="row">...</td>
+                <td scope="row">...</td>
+                <td scope="row">...</td>
+                <td scope="row">...</td>
+            </tbody>
+        </table>
+    </body>
+</html>

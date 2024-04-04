@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Log In</title>
+        <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" type="text/css">
+        <link rel="stylesheet" href="./css/logIn-style.css" type="text/css">
+        <script defer type="module" src="./js/account.js"></script>
+    </head>
+    <body>
+        <header style="display: flex; justify-content: space-between;">
+            <span>
+                <a href="./index.html">Home</a>
+                <a href="./index.html#">Scan</a>
+                <a href="./saved.html">Saved</a>
+                <strong><a href="./log_in.html">Account</a></strong>
+                <a href="./search.html">Search</a>
+            </span>
+            <a id="a_handle" href="./log_in.html">
+                <span id="handle">
+                    Guest#001
+                </span>
+            </a>
+        </header>
+        <h1>Log In</h1>
+        <form id="log_in_form">
+            <label for="user">Username</label>
+            <input type="text" id="user" name="user" placeholder="Username" required/>
+            <br>
+
+            <label for="pass">Password (8+ characters)</label>
+            <input type="password" id="pass" name="pass" placeholder="Password" pattern="[a-zA-Z]{8,}" required/><br>
+            <input type="submit"/>
+        </form>
+        <a onclick="alert('You have logged in via Facebook!')">
+            <img class="external-login wrapped-in-circle" src="./props/fb-logo.svg"/>
+        </a>
+        <a onclick="alert('You have logged in via Google!')">
+            <img class="external-login wrapped-in-circle" src="./props/google-logo.svg"/>
+        </a>
+        <h2>OR</h2>
+        <a href="./index.html">Continue as guest</a>
+        <br>
+        Don't have an account? <a onclick="alert('This will redirect to a sign-up page.')">Sign-Up</a>
+    </body>
+</html>

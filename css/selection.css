@@ -1,0 +1,27 @@
+.cont {
+    color: #fff;
+    background-color: #ffffff;
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cont:hover{
+    background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%)
+        center/15000%;
+    color: white;
+}
+
+.cont:active{
+    background-color: #292d3e;
+    background-size: 100%;
+    transition: background 0s;
+}
