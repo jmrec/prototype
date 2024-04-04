@@ -1,0 +1,169 @@
+{
+    "places": [
+        "burnham_park",
+        "mines_view_park",
+        "the_mansion",
+        "wright_park",
+        "botanical_garden",
+        "camp_john_hay",
+        "baguio_cathedral",
+        "lourdes_grotto",
+        "tam-awan_village",
+        "bencab_museum",
+        "baguio_museum",
+        "eddie_peckley_statue",
+        "rodel_sa_baguio"
+    ],
+    "maps": [
+        {
+            "code": "BPMV",
+            "origin": "Burnham Park",
+            "dest": "Mines View Park",
+            "link": [
+                "./props/common.png",
+                "./props/alternative.png"
+            ],
+            "saved": "true"
+        },
+        {
+            "code": "MVBP",
+            "origin": "Mines View Park",
+            "dest": "Burnham Park",
+            "link": "[LINK TO MAP]",
+            "saved": "true"
+        },
+        {
+            "code": "BPTM",
+            "origin": "Burnham Park",
+            "dest": "The Mansion",
+            "link": "[LINK TO MAP]",
+            "saved": "false"
+        },
+        {
+            "code": "TMBP",
+            "origin": "The Mansion",
+            "dest": "Burnham Park",
+            "link": "[LINK TO MAP]",
+            "saved": "false"
+        },
+        {
+            "code": "BPWP",
+            "origin": "Burnham Park",
+            "dest": "Wright Park",
+            "link": "[LINK TO MAP]",
+            "saved": "false"
+        },
+        {
+            "code": "WPBP",
+            "origin": "Wright Park",
+            "dest": "Burnham Park",
+            "link": "[LINK TO MAP]",
+            "saved": "true"
+        },
+        {
+            "code": "BPBG",
+            "origin": "Burnham Park",
+            "dest": "Botanical Garden",
+            "link": "[LINK TO MAP]",
+            "saved": "false"
+        },
+        {
+            "code": "BGBP",
+            "origin": "Botanical Garden",
+            "dest": "Burnham Park",
+            "link": "[LINK TO MAP]",
+            "saved": "false"
+        },
+        {
+            "code": "BPCJ",
+            "origin": "Burnham Park",
+            "dest": "Camp John Hay",
+            "link": "[LINK TO MAP]",
+            "saved": "true"
+        },
+        {
+            "code": "CJBP",
+            "origin": "Camp John Hay",
+            "dest": "Burnham Park",
+            "link": "[LINK TO MAP]",
+            "saved": "true"
+        },
+        {
+            "code": "BPBC",
+            "origin": "Burnham Park",
+            "dest": "Baguio Cathedral",
+            "link": "[LINK TO MAP]",
+            "saved": "false"
+        },
+        {
+            "code": "BCBP",
+            "origin": "Baguio Cathedral",
+            "dest": "Burnham Park",
+            "link": "[LINK TO MAP]",
+            "saved": "false"
+        },
+        {
+            "code": "BPLG",
+            "origin": "Burnham Park",
+            "dest": "Lourdes Grotto",
+            "link": "[LINK TO MAP]",
+            "saved": "false"
+        },
+        {
+            "code": "LGBP",
+            "origin": "Lourdes Grotto",
+            "dest": "Burnham Park",
+            "link": "[LINK TO MAP]",
+            "saved": "true"
+        },
+        {
+            "code": "BPTV",
+            "origin": "Burnham Park",
+            "dest": "Tam-awan Village",
+            "link": "[LINK TO MAP]",
+            "saved": "false"
+        },
+        {
+            "code": "TVBP",
+            "origin": "Tam-awan Village",
+            "dest": "Burnham Park",
+            "link": "[LINK TO MAP]",
+            "saved": "false"
+        },
+        {
+            "code": "BPBM",
+            "origin": "Burnham Park",
+            "dest": "Bencab Museum",
+            "link": "[LINK TO MAP]",
+            "saved": "false"
+        },
+        {
+            "code": "BMBP",
+            "origin": "Bencab Museum",
+            "dest": "Burnham Park",
+            "link": "[LINK TO MAP]",
+            "saved": "true"
+        },
+        {
+            "code": "BPAM",
+            "origin": "Burnham Park",
+            "dest": "Baguio Museum",
+            "link": "[LINK TO MAP]",
+            "saved": "false"
+        },
+        {
+            "code": "AMBP",
+            "origin": "Baguio Museum",
+            "dest": "Burnham Park",
+            "link": "[LINK TO MAP]",
+            "saved": "false"
+        },
+        {
+            "code": "EPRA",
+            "origin": "Eddie Peckley Statue",
+            "dest": "Rodel Sa Baguio",
+            "link": "[LINK TO MAP]",
+            "saved": "false"
+        }
+    ]
+}
